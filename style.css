@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.first{
+    background-image: url(images/backgound_image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+nav ul li a{   
+    color:white;
+    text-decoration: none;   
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+.bar{
+    position: absolute;
+    top:50px;
+    left:430px;
+    margin-left: 50px ;
+    display: flex;
+    
+}
+
+.element{
+     margin-left: 70px;
+     font-size: 25px;
+    
+}
+
+.title{
+   position: absolute;
+   top: 200px;
+   left: 50px; 
+   font-size: 40px;
+   color: rgb(177, 8, 109);
+   text-shadow: 1px 5px 5px violet ;
+   
+   font-family: "Crimson Pro", serif;
+}
+
+#S{
+    margin-left: 100px;
+    /* margin-top: 400px; */
+}
+
+.container{
+    border: 1px solid rgb(244, 240, 240);
+    height:0px;
+    /* margin-top: 500px; */
+    /* margin-bottom: 300px; */
+}
+
+.para{
+    margin-top: 600px;
+    color: rgba(237, 144, 13, 0.929);
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.second_para{
+    margin-top: 229px;
+    color: rgb(216, 111, 129);
+    margin-left: 30px;
+}
+
+.third_para{
+    margin-top: 4px;
+    color: rgb(216, 111, 129);
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 4px;
+    margin-left: 10px;
+    padding-left:  10px;
+    font-size: 20px;
+    
+}
+
+.content{
+    display: flex;
+}
+
+.second{
+    margin-top: 720px;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .bar{
+        
+        left:430px;
+        
+        
+    }
+}
+
+
+
+
